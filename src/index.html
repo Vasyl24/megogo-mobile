@@ -4,10 +4,142 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Megogo</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>Дивіться ТБ та кіно без реклами в єдиній передплаті</h1>
+    <main>
+      <div class="mobile-container">
+        <section class="hero">
+          <h1 class="hero-title">
+            Дивіться ТБ та кіно без реклами в єдиній передплаті
+          </h1>
+          <p class="hero-text">
+            Популярні телеканали та величезна бібліотека фільмів, серіалів,
+            мультфільмів, трансляцій у єдиній передплаті.
+          </p>
+
+          <button type="button" class="hero-btn-burger">
+            <svg class="hero-icon-burger">
+              <use href="./images/sprite.svg#icon-burger"></use>
+            </svg>
+          </button>
+
+          <button type="button" class="hero-btn-arrow">
+            <svg class="hero-icon-arrow">
+              <use href="./images/sprite.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </section>
+
+        <section class="possibility">
+          <div class="gradient">
+            <h2 class="possibility-title">Дивіться фільми без інтернету</h2>
+            <p class="possibility-text">
+              Завантаження фільмів та серіалів на ваш пристрій.
+            </p>
+
+            <img
+              src="./images/iphone-men.png"
+              alt="Iphone-men"
+              class="possibility-img"
+            />
+          </div>
+        </section>
+
+        <section class="about">
+          <div class="gradient">
+            <p class="about-text">Передплата</p>
+
+            <h3 class="about-title-subs">Оптимальна</h3>
+
+            <h2 class="about-title">10000 фільмів та 160+ каналів</h2>
+
+            <p class="about-text about-text-desc">
+              Голлівудська класика та свіжі кіно-новинки за підпискою, прямі
+              футбольні трансляції та понад 160 каналів
+            </p>
+
+            <p class="about-text-price">від 1 ГРН</p>
+
+            <button type="button" class="about-try-btn">Спробувати</button>
+
+            <p class="about-condition-text">
+              Перші 14 днів за 1 грн, далі – 97 грн/міс.
+            </p>
+
+            <button type="button" class="about-more-btn">Детальніше</button>
+          </div>
+        </section>
+
+        <section class="sponsors">
+          <div class="sponsors-text-container">
+            <h2 class="sponsors-title">
+              Подарунки від партнерів при кожному продовженні передплати
+            </h2>
+            <p class="sponsors-text">
+              Сертифікати на знижки від WOG, Сушія, Антошка, Єва та ін.
+            </p>
+          </div>
+
+          <div class="gradient">
+            <img
+              src="./images/sponsors.png"
+              alt="Sponsors"
+              class="sponsors-img"
+            />
+          </div>
+        </section>
+
+        <section class="connect">
+          <h2 class="connect-title">
+            Підключіть передплату за 1 грн та отримуйте:
+          </h2>
+
+          <ul class="connect-adv-list">
+            <li class="connect-adv-item">
+              <h3 class="connect-adv-title">ТВ-архів</h3>
+              <p class="connect-adv-text">телепередач до 14 днів</p>
+            </li>
+            <li class="connect-adv-item">
+              <h3 class="connect-adv-title">Full HD</h3>
+              <p class="connect-adv-text">якість тільки за передплатою</p>
+            </li>
+            <li class="connect-adv-item">
+              <h3 class="connect-adv-title">10% знижка</h3>
+              <p class="connect-adv-text">на прем'єри</p>
+            </li>
+            <li class="connect-adv-item">
+              <h3 class="connect-adv-title">5 пристроїв</h3>
+              <p class="connect-adv-text">в одній передплаті</p>
+            </li>
+            <li class="connect-adv-item">
+              <h3 class="connect-adv-title">Без реклами</h3>
+              <p class="connect-adv-text">на всіх фільмах та мультфільмах</p>
+            </li>
+          </ul>
+
+          <button type="button" class="connect-btn">Підключити</button>
+        </section>
+      </div>
+    </main>
   </body>
 </html>

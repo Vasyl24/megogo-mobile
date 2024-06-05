@@ -1,28 +1,36 @@
 @import '../../node_modules/modern-normalize/modern-normalize.css';
 
-/* @font-face {
-  font-family: 'Inter';
-  src: local('Inter'),
-    url('./assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf')
-      format('truetype');
+@font-face {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('SF UI Display'),
+    url('../assets/fonts/SFUIDisplay-Regular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: local('Open Sans'),
-    url('./assets/fonts/OpenSans/OpenSans-VariableFont_wdth\,wght.ttf')
-      format('truetype');
-} */
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('SF UI Display'),
+    url('../assets/fonts/SFUIDisplay-Semibold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('SF UI Display'),
+    url('../assets/fonts/SFUIDisplay-Bold.woff2') format('woff2');
+}
 
 :root {
-  /* --background-color: #020202;
-  --text-color: #fafafa; */
   --background-color: #101010;
   --text-color: #ffffff;
-  /* --accent-color: #c7e33b;
-  --dark-grey: #272727;
-  --light-grey: #9d9d9d;
-  --orange: #f55700; */
+   --accent-color: #23c3b2;
 }
 
 *,
@@ -34,9 +42,8 @@
 
 body {
   color: var(--text-color);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'SF UI Display', sans-serif;
   background-color: var(--background-color);
-  /* transition: background-color 1s; */
 }
 
 h1,
