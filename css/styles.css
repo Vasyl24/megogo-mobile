@@ -8,10 +8,10 @@
 
   padding: 200px 50px;
 
-  background-image: url(../images/running-people.png);
+  /* background-image: url(../assets/images/running-people.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -24,11 +24,10 @@
   width: 100%;
   height: 100%;
   opacity: 0.5;
-  background-image: url(../images/running-people.png);
+  background-image: url(../assets/images/running-people.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-title {
@@ -114,7 +113,7 @@
 .about {
   border: 8px solid var(--accent-color);
 
-  background-image: url(../images/channels.png);
+  background-image: url(../assets/images/channels.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
